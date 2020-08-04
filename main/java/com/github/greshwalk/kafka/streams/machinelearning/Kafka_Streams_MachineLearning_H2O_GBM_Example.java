@@ -39,7 +39,7 @@ public class Kafka_Streams_MachineLearning_H2O_GBM_Example {
 		EasyPredictModelWrapper model = new EasyPredictModelWrapper(rawModel);
 
 		// Configure Kafka Streams Application
-		final String bootstrapServers = args.length > 0 ? args[0] : "my-cluster-kafka-bootstrap.myproject:9092";
+		final String bootstrapServers = args.length > 0 ? args[0] : "my-cluster-kafka-bootstrap.myproject-dev:9092";
 		final Properties streamsConfiguration = new Properties();
 		// Give the Streams application a unique name. The name must be unique
 		// in the Kafka cluster
