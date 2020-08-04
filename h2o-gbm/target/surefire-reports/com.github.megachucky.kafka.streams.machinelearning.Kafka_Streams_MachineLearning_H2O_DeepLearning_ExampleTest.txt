@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.megachucky.kafka.streams.machinelearning.Kafka_Streams_MachineLearning_H2O_DeepLearning_ExampleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
